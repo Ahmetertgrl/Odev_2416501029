@@ -1,10 +1,10 @@
 # Adam Asmaca Oyunu 
 
-Bu proje, Programlama II dersi dönem ödevi kapsamında Java Swing kütüphanesi kullanılarak geliştirilmiş masaüstü tabanlı bir **Adam Asmaca** oyunudur. Oyun; şifreli giriş sistemi, dinamik harf alanları, anlık loglama ve geçmiş skor takibi gibi özelliklere sahiptir.
+Bu proje, Programlama II dersi dönem ödevi kapsamında Java Swing kütüphanesi kullanılarak geliştirilmiş masaüstü tabanlı bir **Adam Asmaca** oyunudur. Oyun,şifreli giriş sistemi, dinamik harf alanları, anlık loglama ve geçmiş skor takibi gibi özelliklere sahiptir.
 
 ---
 
-## 📁 Gerekli Klasör ve Dosya Yapısı
+##  Gerekli Klasör ve Dosya Yapısı
 
 Programın koduna müdahale edilmeden çalışabilmesi için `C:\` dizininde aşağıdaki klasör yapısı ve dosyalar bulunmalıdır:
 
@@ -19,15 +19,15 @@ Programın koduna müdahale edilmeden çalışabilmesi için `C:\` dizininde aş
 
 ##  Özellikler
 
-* **Güvenli Giriş:** İlk açılışta şifre belirlenir[cite: 1]. Sonraki girişlerde 3 kez hatalı şifre girilirse program kapanır.
+* **Güvenli Giriş:** İlk açılışta şifre belirlenir. Sonraki girişlerde 3 kez hatalı şifre girilirse program kapanır.
 * **Anlık Loglama:** Her giriş denemesi tarih ve saat bilgisiyle `log.txt` dosyasına kaydedilir.
 * **Dinamik Oyun Alanı:** Seçilen kelimenin harf sayısı kadar dinamik `JLabel` oluşturulur ve harfler `*` olarak gizlenir.
-* **Görsel Takip:** Her yanlış tahminde adam asmaca görselleri sırayla (11 adımda) ekrana gelir.
+* **Görsel Takip:** Her yanlış tahminde adam asmaca görselleri sırayla ekrana gelir.
 * **Skor ve Log Yönetimi:** Eski skorlar ve giriş logları `JTable` ile listelenir; şifre doğrulaması yapılarak temizlenebilir.
 
 ---
 
-## 📸 Uygulama Ekran Görüntüleri
+## Uygulama Ekran Görüntüleri
 
 ### 1. Giriş ve Şifre Kontrol Ekranı
 ![Giriş Ekranı](ekran_goruntuleri/giris.png)
