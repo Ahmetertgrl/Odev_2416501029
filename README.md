@@ -1,6 +1,6 @@
-# 🎯 Java Swing - Adam Asmaca Oyunu (P2Oyun)
+# Adam Asmaca Oyunu 
 
-Bu proje, Programlama II dersi dönem ödevi kapsamında Java Swing kütüphanesi kullanılarak geliştirilmiş masaüstü tabanlı bir **Adam Asmaca** oyunudur[cite: 1]. Oyun; şifreli giriş sistemi, dinamik harf alanları, anlık loglama ve geçmiş skor takibi gibi özelliklere sahiptir.
+Bu proje, Programlama II dersi dönem ödevi kapsamında Java Swing kütüphanesi kullanılarak geliştirilmiş masaüstü tabanlı bir **Adam Asmaca** oyunudur. Oyun; şifreli giriş sistemi, dinamik harf alanları, anlık loglama ve geçmiş skor takibi gibi özelliklere sahiptir.
 
 ---
 
@@ -22,7 +22,7 @@ Programın koduna müdahale edilmeden çalışabilmesi için `C:\` dizininde aş
 * **Güvenli Giriş:** İlk açılışta şifre belirlenir[cite: 1]. Sonraki girişlerde 3 kez hatalı şifre girilirse program kapanır.
 * **Anlık Loglama:** Her giriş denemesi tarih ve saat bilgisiyle `log.txt` dosyasına kaydedilir.
 * **Dinamik Oyun Alanı:** Seçilen kelimenin harf sayısı kadar dinamik `JLabel` oluşturulur ve harfler `*` olarak gizlenir.
-* **Görsel Takip:** Her yanlış tahminde adam asmaca görselleri sırayla (11 adımda) ekrana gelir[cite: 1].
+* **Görsel Takip:** Her yanlış tahminde adam asmaca görselleri sırayla (11 adımda) ekrana gelir.
 * **Skor ve Log Yönetimi:** Eski skorlar ve giriş logları `JTable` ile listelenir; şifre doğrulaması yapılarak temizlenebilir.
 
 ---
